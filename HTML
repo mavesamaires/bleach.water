@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gothic Musings</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🦇 Gothic Musings</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Posts</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.instagram.com/tripped0ut.arachnid" target="_blank">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="blog-post">
+      <h2>The Midnight Whisper</h2>
+      <p class="meta">Posted on May 10, 2025 by <span class="author">Lilith Nightshade</span></p>
+      <p>The moonlight spilled like silver blood on the old cathedral stones...</p>
+
+      <!-- Comments Section -->
+      <section class="comments">
+        <h3>Comments</h3>
+        <ul id="comment-list"></ul>
+        <form id="comment-form">
+          <textarea id="comment-text" placeholder="Leave a comment..." required></textarea>
+          <button type="submit">Post Comment</button>
+        </form>
+      </section>
+    </article>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/movdlydl" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Write your message here..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gothic Musings. All rights reserved. 🕷️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
